@@ -25,7 +25,9 @@ public class User {
     private String email;
 
     private String password;
-    // aq aghar minda confirm password, bazashi shenaxva ar unda (wesit)
+
+    @Transient  // databaseshi aghar sheinaxos mara validaciistvis gvinda
+    private String confirmPassword;
 
     private String role;
 }
