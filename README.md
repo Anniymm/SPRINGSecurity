@@ -1,6 +1,6 @@
 # 🛡️ Spring Security with JWT (Access & Refresh Tokens)
 
-Project about authentication and authorization using **Spring Security**, **JWT (JSON Web Token)**, and **refresh tokens**. It ensures secure user login and token management for API authentication.
+Project about authentication and authorization using **Spring Security**, **JWT (JSON Web Token)**, and **refresh tokens**. It ensures secure user register, login, logout and token management for API authentication.
 
 ---
 
