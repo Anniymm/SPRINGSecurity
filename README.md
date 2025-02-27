@@ -60,7 +60,7 @@ spring.jpa.hibernate.ddl-auto=update
 | POST   | `/auth/register`     | Register a new user                        | 
 | POST   | `/auth/login`        | Authenticate & get JWT tokens              | 
 | POST   | `/auth/refresh-token`      | Get new access token using refresh token   | 
-| GET    | `/auth//logout`          | for logout                   | 
+| GET    | `/auth/logout`          | for logout                   | 
 
 
 ## 🔐 JWT Token Structure
@@ -82,8 +82,6 @@ spring.jpa.hibernate.ddl-auto=update
 ```bash
 ./gradlew bootRun
 ```
-## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
